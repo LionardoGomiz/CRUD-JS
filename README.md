@@ -1,2 +1,2 @@
-# CopiaPC
-Copia de seguridad e los archivos de mi pc
+# CRUD_JS-PHP
+CRUD REALIZADO CON JAVASICRIPT AJAX Y PHP ESTRUCTURADO
