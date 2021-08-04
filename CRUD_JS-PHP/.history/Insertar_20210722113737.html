@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CRUD JS</title>
+    <link rel="stylesheet" href="crud.css">
+    <script type="text/javascript" src="jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="CRUD.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+      <ul>
+        <button type="button" id="inicio-link"><a href="index.php">Inicio</a></button>
+       <button type="button" id="insertar-link"><a href="Insertar.php">Insertar</a></button>
+        <button type="button" id="editar-link"><a href="Editar.php">Editar</a></button>
+        <button type="button" id="eliminar-link"><a href="Eliminar.php">Eliminar</a></button>
+      </ul>
+      </nav>
+    </header>
+        
+      <br>
+      <div class="formulario-borde">
+          <br>
+          <form class="formulario" action="">
+          <label>Movil</label>
+          <input type="text" name="Movil" id="Movil">
+           <label>Operador</label>
+          <input type="text" name="Operador" id="Operador">
+           <label>Carroceria</label>
+          <input type="text" name="Carroceria" id="Carroceria">
+           <label>Modelo</label>
+          <input type="text" name="Modelo" id="Modelo">
+           <label>Marca</label>
+          <input type="text" name="Marca" id="Marca">
+           <label>Tipologia</label>
+          <input type="text" name="Tipologia" id="Tipologia">
+          
+          <div class="boton-agregar">
+              <button type="button" onclick="getData()">Guardar</button>
+          </div>
+      </form>
+      </div>
+        <footer>
+            <div class="footer">
+              <p>Desarrollado por William Leonardo Ortegón Aguirre &copy 2020</p>
+              <p>CRUD con JavaScript</p>
+            </div>
+        </footer>
+
+  </body>
+</html>
